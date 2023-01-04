@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+:root {
+    --error-color: #dc3545;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    display:block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    min-height: 100vh;
+    margin: 0;
+   
+    
+}
+.app{
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border: 3px solid #73ad80;
+
+}
+#addNew{
+    background-color: #73ad80;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border: 2px solid #73ad80;
+    width: 370px;
+    height: auto;
+    text-align: left;
+}
+ div i{
+   
+    float: right;
+
+ }
+
+.modal-body{
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border: 2px solid #73ad80;
+    text-align: left;
+
+}
+
+#tasks{
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border: 2px solid #73ad80;
+    text-align: left;
+    width: 370px;
+    height: 200px;
+
+}
+.modal-body{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+#msg{
+    color: red;
+}
+
+.btn {
+    width: 70px;
+    height:fit-content;
+    padding: 3%;
+    background: #73ad80;
+    border-bottom: 2px solid #28a745;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.btn:hover {
+    background:burlywood;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+
+
+.fw-bold{
+    font-weight: bolder;
+    font-size: medium;
+
+}
+.fa-edit,
+.fa-trash-alt{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+.small {
+    font-size: small;
+
+}
