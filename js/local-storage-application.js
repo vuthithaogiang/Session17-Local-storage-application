@@ -57,8 +57,8 @@ let createTasks = () => {
             <span class="small text-secondary">${x.date}</span>
             <p>${x.description}</p>
             <span class="options">
-                    <i onClick="editTask(this)" data-bs-toggle="modal" data-bs-target="#form" class="fas fa-edit"></i>
-                    <i onClick="deleteTask(this);createTasks()" class="fas fa-trash-alt"></i>
+                    <i onclick="editTask(this)" data-bs-toggle="modal" data-bs-target="#form" class="fas fa-edit"></i>
+                    <i onclick="deleteTask(this);createTasks()" class="fas fa-trash-alt"></i>
             </span>
         </div>   
         `);
@@ -92,7 +92,7 @@ let resetForm = () => {
 };
 
 (() => {
-    data.JSON.parse(localStorage.getItem("data")) || []
+    data = JSON.parse(localStorage.getItem("data")) || []
     console.log(data);
     createTasks();
 
