@@ -106,16 +106,20 @@ body {
 }
 .text-center{
     text-transform: uppercase;
-    color:#73ad80;
+    
     font-size: 35px ;
+    background: -webkit-linear-gradient(#28a745, #333);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
     
 }
 
 .btn {
-    width: 65px;
-    height: 40px;
-    padding: 15px 20px;
-    background: #73ad80;
+    border: none;
+    padding: 5px 5px;
+    width: 50px; 
+    background-color: #73ad80;
     border-bottom: 2px solid #28a745;
     border-top-style: none;
     border-right-style: none;
@@ -125,7 +129,7 @@ body {
     font-size: medium;
     text-align:center;
     cursor: pointer;
-    margin: 15px;
+    transition: 1s;
     
 }
 
@@ -160,3 +164,4 @@ div i {
 .small{
     font-size: small;
 }
+
