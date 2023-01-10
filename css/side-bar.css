@@ -47,7 +47,7 @@
 
 .sidebar-up-items:hover,
 .sidebar-down-items:hover{
-    background-color: #8f8f8f;;
+    background-color: #f9f9f9;
 }
 
 .text{
@@ -56,3 +56,27 @@
     font-size: 15px;
 }
 
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 3px 10px;
+    
+    
+
+}
+
+.header-right,
+.header-left{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+.header-right{
+    gap: 25px;
+
+}
